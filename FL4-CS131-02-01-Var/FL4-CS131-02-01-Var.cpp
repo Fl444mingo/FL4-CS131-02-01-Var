@@ -28,8 +28,7 @@ int main()
 	quantity = 5;
 	total = quantity * price * (1 - discount);
 	// Output together
-	cout << quantity << " items at " << price << " each with " << 100 * discount
-		<< "% discount\n";
+	cout << quantity << " items at " << price << " each with " << 100 * discount << "% discount\n";
 	// Output in pieces
 	cout << "total = ";
 	cout << total;
